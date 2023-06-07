@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="animal.js" defer></script>   
+    <title>Animal Data</title>
+</head>
+<header>
+    <!-- Title and introduction section -->
+    <div class="titel"> 
+        <h1>Information about Animal</h1>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+        <!-- Tabs section -->
+        <div class="tabs">
+            <a href="#" class="tab1">Sign In</a>
+            <a href="#" class="tab2">About Us</a>
+            <a href="#" class="tab3">Help</a>
+        </div>
+    </div>
+</header>
+<body>
+    <!-- Display the retrieved data -->
+    <div id="json-data"></div>
+    
+    <!-- Introduction section -->
+    <div class="intro">
+        <p>Welcome to my animal registry website!<br>
+            Here, you can keep track of your favorite animals by adding them to our database.<br>
+            You can also write short descriptions about them and save for future reference.<br>
+            Start exploring our site and see how it can be of benefit!
+        </p>
+    </div>
+
+    <!-- Form to add an animal -->
+    <div class="add-animal">
+        <br>
+        <h2>Add your favorite animal to the library</h2>
+        <form id="formAnimalis" method="post">
+            <!-- Animal name input -->
+            <label for="animal">Animal name:</label>
+            <input type="text" id="animal" name="animal"><br><br>
+            
+            <!-- Specie input -->
+            <label for="specie">Specie :</label>
+            <input type="text" id="specie" name="specie"><br><br>
+            
+            <!-- Sun input -->
+            <label for="sex">Sex :</label>
+            <input type="text" id="sex" name="sex"><br><br>
+            
+            <!-- Description textarea -->
+            <label for="description">Short description:</label>
+            <textarea id="description" name="description"></textarea><br><br>
+            
+            <!-- Save button -->
+            <input type="submit" value="Save">
+        </form>
+        
+        <!-- Button to display saved plants -->
+        <button onclick="getDataFromJSON()">Display saved animals</button>
+        <br>
+    </div>
+   
+    <!-- Display the retrieved data -->
+    <div id="getData"></div>
+    
+    <footer>
+        <p>&copy; 2023 My Animal Database.</p>
+    </footer>
+</body>
+</html>

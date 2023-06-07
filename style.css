@@ -1,0 +1,104 @@
+ /* This makes everything appear in a single line at the top of the page */
+.titel {
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-right: 40px;
+    padding-top: 1px;
+}
+
+/* Design for the tabs */
+.tabs a {
+    padding-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.titel h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 15px;
+}
+
+/* Styling for the text box */
+.intro {
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 5px;
+    width: 40%;
+    margin: auto;
+}
+
+/* Sets the background color of the page to light gray */
+body {
+    background-color: lightgray;
+}
+
+/* Styling for the search function, with rounder shape and green color for the search button */
+.search-box input[type="text"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 400px;
+}
+
+.search-box button {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Styling for the "Add Plant" box */
+.add-animal {
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 5px;
+    width: 40%;
+    height: auto;
+}
+
+/* Styling for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    color: #212529;
+    font-size: 14px;
+}
+
+th,
+td {
+    border: 1px solid #dee2e6;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #343a40;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e2e6ea;
+}
