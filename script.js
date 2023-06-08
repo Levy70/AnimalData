@@ -31,6 +31,7 @@ app.listen(port, () => {
 
 // Handling POST request to "/index"
 app.post("/index", (req, res) => {
+    
     const jsonData = JSON.stringify(req.body, null, 2);
     // Writing JSON string to file
     fs.writeFileSync("data.json", jsonData, (err) => {

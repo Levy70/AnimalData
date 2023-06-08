@@ -17,7 +17,7 @@
 }
 
 .titel h1 {
-    font-size: 40px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     padding-left: 15px;
 }
@@ -26,7 +26,7 @@
 .intro {
     text-align: center;
     border-radius: 10px;
-    background-color: lightgray;
+    background-color: gray;
     padding: 5px;
     width: 40%;
     margin: auto;
@@ -63,7 +63,7 @@ body {
     margin-left: 10px;
 }
 
-/* Styling for the "Add Plant" box */
+/* Styling for the "Add Animal" box */
 .add-animal {
     border-radius: 10px;
     background-color: lightblue;

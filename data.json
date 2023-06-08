@@ -1,8 +1,26 @@
 [
-    {
-        "animal": "dog",
-        "specie": "domestic",
-        "sex": "female",
-        "description": "It can be a friend"
-    }
-  ]
+  {
+    "animal": "dog",
+    "specie": "domestic",
+    "sex": "female",
+    "description": "It can be a friend"
+  },
+  {
+    "animal": "Lion",
+    "specie": "Forest",
+    "sex": "male",
+    "description": "King of the jungle"
+  },
+  {
+    "animal": "Horse",
+    "specie": "House animal",
+    "sex": "Female",
+    "description": "Great animal to race"
+  },
+  {
+    "animal": "Cow",
+    "specie": "Bos taurus",
+    "sex": "Male",
+    "description": "Use for farm work"
+  }
+]
